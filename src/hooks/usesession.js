@@ -8,7 +8,7 @@ const Auth = () => {
   return authData ? JSON.parse(authData) : null;
 };
 
-const useSession = () => {
+export const useSession = () => {
   const session = Auth();
   const decodedsession = session ? jwtDecode(session) : null;
   const navigate = useNavigate();
@@ -22,4 +22,4 @@ const useSession = () => {
   return decodedsession;
 };
 
-export default useSession;
+

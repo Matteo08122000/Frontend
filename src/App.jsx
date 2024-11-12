@@ -15,11 +15,7 @@ import SuccessPage from "./pages/SuccessPage";
 import Register from "./pages/Register";
 
 const App = () => {
-  const [isUserLogged, setIsUserLogged] = useState(false);
 
-  const handleLogin = () => {
-    setIsUserLogged(true);
-  };
 
   return (
     <BrowserRouter>

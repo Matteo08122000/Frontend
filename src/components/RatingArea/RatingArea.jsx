@@ -3,7 +3,7 @@ import { Form, Button } from "react-bootstrap";
 import { FaStar, FaRegStar } from "react-icons/fa";
 import { postComment } from "../../Api/api";
 import Swal from "sweetalert2";
-import { useSession } from "../../hooks/useSession";
+import { useSession } from "../../hooks/usesession.js";
 import { SelectedComment } from "../../contexts/SelectedComment";
 
 const RatingArea = ({ _id, setComments }) => {

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import RatingArea from "../RatingArea/RatingArea";
 import Comments from "../Comments/Comments";
-import { session } from "../../hooks/useSession";
+import { session } from "../../hooks/usesession.js";
 
 const BookComments = ({ _id }) => {
   const [comments, setComments] = useState([]);

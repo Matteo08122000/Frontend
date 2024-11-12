@@ -1,4 +1,4 @@
-import { useSession } from "../../hooks/useSession";
+import { useSession } from "../../hooks/usesession.js";
 
 const Welcome = () => {
   const session = useSession();

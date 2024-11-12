@@ -1,0 +1,145 @@
+body {
+  background-color: #e6e6e6;
+  min-width: 320px;
+}
+
+.navs {
+  height: 70px;
+  background-color: #363636;
+  color: white;
+}
+.logo {
+  max-width: 100px;
+  min-width: 80px;
+  background-color: #363636;
+}
+
+@media (max-width: 425px) {
+  .logo {
+    max-width: 60px;
+    min-width: 60px;
+  }
+}
+
+.footer {
+  background-color: #f3f3f3;
+  color: #363636;
+}
+
+.custom-link {
+  color: white;
+}
+
+.custom-input {
+  width: 400px;
+}
+
+.Card-Box {
+  object-fit: cover;
+  height: 350px;
+  border-radius: 16px 0 0 0;
+  cursor: pointer;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+  margin-top: 50px;
+}
+
+.Card-Box:hover {
+  transform: scale(1.1);
+}
+
+.Card-Box img {
+  object-fit: cover;
+  overflow: hidden;
+  height: 300px;
+  border-radius: 16px, 0px, 0px, 0px;
+}
+
+.Welcomeimg {
+  height: 280px;
+  width: 100%;
+  overflow: hidden;
+  background-image: url(https://as1.ftcdn.net/v2/jpg/05/78/84/48/1000_F_578844842_jKMMs2y9h061vN3dqE4lL7DuLeLmu24N.jpg);
+  animation: fadeIn 4s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.spaceAll {
+  margin-bottom: 100px;
+}
+
+.img-fluid {
+  padding: 5px;
+  border-radius: 16px;
+}
+
+.center-my-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+.form-login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  padding: 20px;
+  margin-left: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.img-login {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn-login {
+  width: 100px;
+  color: white;
+  background-color: black;
+  padding: 5px;
+}
+
+.github-logo {
+  width: 30px;
+  height: 30px;
+}
+
+.MessageInput {
+  width: 100%;
+  max-width: 500px;
+  height: 150px;
+  margin-bottom: 1rem;
+}
+
+.InputEmail {
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .MessageInput,
+  .InputEmail {
+    width: 80%;
+  }
+}

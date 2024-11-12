@@ -3,7 +3,7 @@ import NavbarExample from "../components/Navbar/Navbar";
 import Welcome from "../components/Welcome/Welcome";
 import AlltheBooks from "../components/AlltheBooks/AlltheBooks";
 import Footer from "../components/Footer/Footer";
-import AddBook from "../components/addBook";
+import AddBook from "../components/AddBook/AddBook";
 import useSession from "../hooks/usesession";
 
 const FirstPage = () => {

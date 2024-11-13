@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { BookContext } from "../../contexts/bookcontexts.jsx";
+import { BookContext } from "../../contexts/bookcontexts";
 import { DarkModeContext } from "../../contexts/DarkModeContext";
 import { Col, Row } from "react-bootstrap";
 import BookCard from "../BooksCard/BooksCard";

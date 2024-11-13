@@ -1,4 +1,4 @@
-import { jwtDecode } from "jwt-decode";
+import jwtDecode from "jwt-decode";
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 import { IsTokenExpire } from "../utilis/VerifyTokenExire";
@@ -21,5 +21,3 @@ export const useSession = () => {
 
   return decodedsession;
 };
-
-
